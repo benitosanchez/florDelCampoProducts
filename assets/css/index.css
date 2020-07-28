@@ -1,6 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
+}
 
+.card {
+  border: none;
 }
 
 .separatingBanner {
@@ -16,10 +19,19 @@ body {
   text-align: center;
 }
 
-hr {
-    border: 0;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    padding-top: 20%;
+.divider {
+  height: 100px;
+  padding: 20px;
+}
+
+.boxLeft p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.sectionTitle {
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
 }
 
 .boxImage {
@@ -31,8 +43,9 @@ hr {
   padding-bottom: 5%;
 }
 
-.alignTop {
-  align-items: baseline;
+.alignTop p {
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .row{
