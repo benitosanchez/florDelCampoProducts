@@ -12,6 +12,8 @@ body {
   padding-top: 5%;
   padding-bottom: 5%;
   font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
 }
 
 .row {
@@ -52,10 +54,7 @@ font-family: 'Raleway', sans-serif;
     overflow: hidden;
 }
 
-[class*="col-"]{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}
+
 
 
 .sectionTitle {
